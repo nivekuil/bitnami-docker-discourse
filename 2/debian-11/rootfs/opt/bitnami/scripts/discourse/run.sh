@@ -22,6 +22,7 @@ declare -a cmd=(
     "--user" "$DISCOURSE_DAEMON_USER"
     "-e" "$DISCOURSE_ENV"
     "-p" "$DISCOURSE_PORT_NUMBER"
+    "--address" "$DISCOURSE_BIND_ADDRESS"
     "--spawn-method" "$DISCOURSE_PASSENGER_SPAWN_METHOD"
 )
 
