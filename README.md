@@ -296,6 +296,7 @@ Available environment variables:
 - `DISCOURSE_EXTRA_CONF_CONTENT`: Extra configuration to append to the `discourse.conf` configuration file. No defaults.
 - `DISCOURSE_PASSENGER_SPAWN_METHOD`: Passenger method used for spawning application processes. Valid values: direct, smart. Default: **direct**
 - `DISCOURSE_PASSENGER_EXTRA_FLAGS`: Extra flags to pass to the Passenger start command. No defaults.
+- `DISCOURSE_BIND_ADDRESS`: Address on which Discourse will listen. Default: **0.0.0.0**
 - `DISCOURSE_PORT_NUMBER`: Port number in which Discourse will run. Default: **3000**
 - `DISCOURSE_ENV`: Discourse environment mode. Allowed values: *development*, *production*, *test*. Default: **production**
 - `DISCOURSE_ENABLE_CONF_PERSISTENCE`: Whether to enable persistence of the Discourse `discourse.conf` configuration file. Default: **no**
